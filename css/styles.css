@@ -14,6 +14,51 @@ ol {
 button {
     cursor: pointer;
 }
+/* #region blockstyle */
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ul,ol {
+    list-style: none;
+}
+.container {
+    weight: 1158px;
+    margin: 0 auto;
+}
+.nav-items {
+    display: flex;
+    flex-direction: row;
+}
+.adress-nav {
+    display: flex;
+    flex-direction: row;
+}
+.main-title {
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin: 0 auto;
+    padding-top: 188px;
+    padding-bottom: 48px;
+
+}
+.button-order {
+    display: block; 
+    margin: 0 auto;
+    padding-bottom: 0;
+    max-height: 56px;
+    max-width: 169px;
+}
+.container .sections {
+    display: flex;
+    flex-direction: raw;
+}
+.footer-p {
+    max-width: 264px;
+    padding-top: 131px;
+    padding-bottom: 109px;
+}
+.sections {padding-top: 120px; padding-bottom: 120px;}
+/* #endregion blockstyle */
 /* #region header*/
 .logo-web {font-family: "Raleway", sans-serif;
     font-weight: 700;
