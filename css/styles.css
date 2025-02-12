@@ -174,10 +174,14 @@ p {
 .descr {
     padding: 120px 0;
 }
+.describe-section {
+    width: calc((100%-24px*3)/4);
+}
+
 .describe-list {
     display: flex;
     gap: 24px;
-}
+  }
 
 .describe-title {
     font-weight: 500;
@@ -202,9 +206,10 @@ p {
 
 .team-section {
     background-color: #FFF;
+    width: calc ((100% - 72px) / 4);
 }
 
-.class-title {
+.class-title-team {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -212,6 +217,21 @@ p {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+    padding-top: 120px;
+    justify-content: center;
+    min-width: 162px;
+    display: flex;
+}
+.team-ul {display: flex;}
+   
+
+
+.team-img {
+    display: flex; 
+    max-width: 100%;
+    object-fit: cover;
+
 }
 
 .image-team-name {
@@ -220,10 +240,12 @@ p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42
+    color: #2e2f42;
+    padding: 32px 65px 8px 32px;
 }
 
 .team-position {
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
