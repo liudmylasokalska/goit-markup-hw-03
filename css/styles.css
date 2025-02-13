@@ -174,6 +174,19 @@ p {
 .descr {
     padding: 120px 0;
 }
+.title-descr, .visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
 .describe-section {
     width: calc((100%-24px*3)/4);
 }
@@ -200,6 +213,10 @@ p {
 
 /* #endregion desribe*/
 /* #region team */
+.team-main section {
+    padding: 120px 0;
+}
+
 .team-main {
     background-color: #F4F4FD;
 }
@@ -207,6 +224,8 @@ p {
 .team-section {
     background-color: #FFF;
     width: calc ((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
 }
 
 .class-title-team {
@@ -223,7 +242,10 @@ p {
     min-width: 162px;
     display: flex;
 }
-.team-ul {display: flex;}
+
+.team-ul {display: flex;
+gap: 24px;
+}
    
 
 
@@ -233,6 +255,9 @@ p {
     object-fit: cover;
 
 }
+.team-name-position {
+    padding: 32px 0;
+}
 
 .image-team-name {
     font-weight: 500;
@@ -241,7 +266,7 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding: 32px 65px 8px 32px;
+    margin-bottom: 8px;
 }
 
 .team-position {
@@ -273,9 +298,15 @@ p {
 .footer-page {
     background-color: #2e2f42;
 }
+.footer-page section {
+    padding: 100px 0;
+}
 
 .logo-studio-footer {
     color: #f4f4fd
+}
+.logo-web, .logo-studio-footer {
+    margin-bottom: 16 px;
 }
 
 .footer-p {
