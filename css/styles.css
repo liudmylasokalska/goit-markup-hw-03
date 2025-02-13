@@ -188,7 +188,7 @@ p {
 }
 
 .describe-section {
-    width: calc((100%-24px*3)/4);
+    width: calc((100% - 24px*3)/4);
 }
 
 .describe-list {
@@ -215,10 +215,8 @@ p {
 /* #region team */
 .main-team-section {
     padding: 120px 0;
-}
-
-.team-main {
     background-color: #F4F4FD;
+
 }
 
 .team-section {
@@ -228,7 +226,9 @@ p {
     padding: 0px 0px 32px 0px;
 }
 
-.class-title-team {
+.class-title-team,
+.class-title
+ {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -248,13 +248,13 @@ gap: 24px;
 }
    
 
-
+/*
 .team-img {
     display: flex; 
     max-width: 100%;
     object-fit: cover;
 
-}
+} */
 .team-name-position {
     padding: 32px 0;
 }
