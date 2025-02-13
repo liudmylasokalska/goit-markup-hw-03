@@ -9,6 +9,9 @@ a {
 ul, li {
     list-style-type: none;
 }
+img {
+    display: block;
+}
 
 button {
     cursor: pointer;
@@ -23,9 +26,6 @@ ul,ol {
     padding-left: 0;
 }
 
-img {
-    display: block;
-}
 
 .visually-hidden {
     position: absolute;
