@@ -223,7 +223,6 @@ p {
     background-color: #FFF;
     width: calc ((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
 }
 
 .class-title-team,
@@ -237,7 +236,6 @@ p {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    padding-top: 120px;
     justify-content: center;
     min-width: 162px;
     display: flex;
@@ -320,7 +318,6 @@ gap: 24px;
 /* #region footer */
 .footer-page {
     background-color: #2e2f42;
-    padding: 100px 0;
 }
 
 .logo-studio-footer {
